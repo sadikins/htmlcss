@@ -43,6 +43,7 @@ html {
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
+  position: relative;
 }
 
 section {
@@ -119,7 +120,6 @@ nav ul li a:hover {
   left: 0;
   right: 0;
   margin-top: 30px;
-  margin-bottom: 150px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.474);
   border-radius: 5px;
@@ -130,10 +130,6 @@ nav ul li a:hover {
   /* margin-top: 10px; */
   /* padding-top: 34px; */
   /* border: #fcd549 solid 2px; */
-}
-
-.hero {
-  padding: 50px 0;
 }
 
 .btn-primary {
@@ -288,15 +284,15 @@ nav ul li a:hover {
 .contact-box .email {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 15px;
   font-size: 23px;
-  margin: 25px auto;
+  margin: 30px auto;
 }
 
 .contact-box .social-media {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 .contact-box .social-media-item {
@@ -331,6 +327,33 @@ footer {
   color: var(--clr-accent);
 }
 
+/* -------------------------
+    Button back to Top 
+----------------------------*/
+.btn-backtop {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 150px;
+  right: 50px;
+  position: absolute;
+  bottom: 150px;
+  background: var(--clr-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.btn-backtop a i {
+  color: var(--ff-primary);
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.btn-backtop a:hover i {
+  color: var(--clr-black);
+}
 /*--------------------------
      Responsive
 ---------------------------*/
