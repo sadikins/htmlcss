@@ -126,11 +126,6 @@ nav ul li a:hover {
   padding: 10px;
   transition: 0.6s;
 }
-.logo {
-  /* margin-top: 10px; */
-  /* padding-top: 34px; */
-  /* border: #fcd549 solid 2px; */
-}
 
 .btn-primary {
   margin-top: 50px;
@@ -335,14 +330,13 @@ footer {
   height: 50px;
   border-radius: 50%;
   bottom: 150px;
-  right: 50px;
+  right: 70px;
+  bottom: 50px;
   position: absolute;
-  bottom: 150px;
   background: var(--clr-accent);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 30px;
 }
 
 .btn-backtop a i {
