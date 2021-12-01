@@ -220,7 +220,7 @@ nav ul li a:hover {
 ---------------------------*/
 
 .testimonials {
-  background-image: url("images/bg_testimony.png");
+  background-image: url("/images/bg_testimony.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -271,7 +271,7 @@ nav ul li a:hover {
      Contact
 ---------------------------*/
 .contact-box {
-  background-image: url("images/bg-contact.png");
+  background-image: url("/images/bg-contact.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
