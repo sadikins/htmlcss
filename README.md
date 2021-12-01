@@ -1,13 +1,10 @@
 # Proyek Tim A08 Modul HTML & CSS
 
 Proyek ini dibuat untuk kebutuhan kegiatan bootcamp Anak Teknik Indo & Progate Coding Bootcamp Batch 2.
-<<<<<<< HEAD
 
 ## Tema
 
 Tema Webiste yang diambil adalah Portfolio seorang fotografer dengan karakteristik simple dan clean.
-=======
->>>>>>> 1bfcd8ade7901686c0ab3a733edf04ebb79e00b6
 
 ## Anggota TIM A08
 
