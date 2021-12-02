@@ -53,6 +53,10 @@ section {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   padding-top: 20px;
 }
@@ -66,7 +70,6 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
   margin-left: 30px;
   font-family: "Poppins", sans-serif;
   color: var(--clr-black);
@@ -76,6 +79,14 @@ nav ul li a:hover {
   font-weight: bold;
   color: var(--clr-accent);
 }
+
+.navbar-icon {
+  display: none;
+  visibility: collapse;
+  width: 0px;
+  height: 0px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -140,7 +151,6 @@ nav ul li a:hover {
 
 .btn-primary a {
   color: var(--clr-accent);
-  text-decoration: none;
   display: block;
 }
 
@@ -177,8 +187,6 @@ nav ul li a:hover {
 .skill-box:hover {
   box-shadow: 0px 0px 30px #0000002f;
   border-radius: 20px;
-  /* border: 3 solid ; */
-  transition: padding 0.5s;
 }
 
 .skill-icon {
@@ -197,19 +205,32 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 26px;
-  /* justify-content: flex-end; */
 }
-.port-img {
-  /* margin-right: 20px; */
+.portfolio-img {
   margin-bottom: 55px;
-  width: 310px;
+  width: 280px;
+  padding: 10px;
+  filter: brightness(0.7);
 }
+
+.portfolio-img:hover {
+  box-shadow: 0px 0px 00px #0000005b;
+  border-radius: 10px;
+  filter: brightness(1);
+  transition: all 0.5s linear 0.5s;
+}
+
+.subtitle:hover > .fa-long-arrow-alt-right {
+  padding-left: 10px;
+  transition: all 0.5s linear 0.5s;
+}
+
 /*--------------------------
      Testimonials
 ---------------------------*/
 
 .testimonials {
-  background-image: url("../images/bg_testimony.png");
+  background-image: url("../images/bg-testimony.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -371,7 +392,7 @@ footer {
 @media (max-width: 1200px) {
   .container {
     margin: 0 auto;
-    border: #fcd549 solid 3px;
+    /* border: #fc49c0 solid 3px; */
     justify-content: center;
   }
 
@@ -382,12 +403,26 @@ footer {
     flex-direction: column-reverse;
   }
 
+  /* portfolio */
+  .portofolio-header-container {
+    justify-content: space-around;
+  }
+
+  .portfolio-img {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+  /* Testimonials */
+
   .testimonials {
     height: auto;
     padding: 100px 0px;
   }
   .testimony {
     margin-top: 150px;
+    width: 300px;
+    margin-right: 10px;
   }
 
   /*  */
@@ -397,7 +432,7 @@ footer {
   .container {
     max-width: 960px;
     margin: 0 auto;
-    border: #fcd549 solid 3px;
+    /* border: #fcd549 solid 3px; */
     justify-content: center;
   }
 
@@ -408,8 +443,39 @@ footer {
     flex-direction: column-reverse;
   }
 
-  .port-img {
-    width: 100%;
+  /* Portfolio */
+
+  .portofolio-header-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-img {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  /* Testimonials */
+
+  .testimony {
+    margin-top: 100px;
+    margin-right: 15px;
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+  }
+
+  .testimony-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimony-desc {
+    padding: 30px;
   }
 }
 
@@ -433,7 +499,6 @@ footer {
 
   /* Hero */
   .hero-container {
-    /* margin: 0 auto; */
     text-align: center;
     flex-direction: column-reverse;
   }
@@ -441,10 +506,33 @@ footer {
 
 /* Mobile Phone */
 @media (max-width: 670px) {
+  section {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
   .container {
-    /* max-width: 540px; */
+    max-width: 640%;
     margin: 0 auto;
-    border: green solid 3px;
+    /* border: green solid 3px; */
+    height: auto;
+    padding: 30px;
+  }
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-icon {
+    width: 30px;
+    height: 30px;
+    padding-top: 30px;
+    visibility: visible !important;
+    display: inline;
+  }
+
+  .menu {
+    visibility: collapse;
+    font-size: 0;
   }
 
   /* Hero */
@@ -452,5 +540,28 @@ footer {
     margin: 0 auto;
     text-align: center;
     flex-direction: column-reverse;
+  }
+
+  .profile-picture img {
+    max-width: 300px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  /* Skills */
+  .skill-box {
+    width: fit-content;
+  }
+  .skill-icon img {
+    width: fit-content;
+    margin-right: 10px;
+  }
+
+  /* Contact */
+  .contact {
+    display: flex;
+    flex-direction: column;
   }
 }
