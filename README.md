@@ -1,6 +1,6 @@
 # Proyek Tim A08 Modul HTML & CSS
 
-Proyek ini dibuat untuk kebutuhan kegiatan bootcamp Anak Teknik Indo & Progate Coding Bootcamp Batch 2.
+Website ini dibuat untuk kebutuhan tugas "pembuatan website menggunakan HTML dan CSS" dalam kegiatan bootcamp Anak Teknik Indo & Progate Coding Bootcamp.
 
 ## Tema
 
