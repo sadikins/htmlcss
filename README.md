@@ -10,6 +10,11 @@ Tema Webiste yang diambil adalah Portfolio seorang fotografer dengan karakterist
 
 ![Desktop Preview](images/screenshot.png)
 
+### Links
+
+- Proses Desain URL: [Figma](https://www.figma.com/file/U2rTwRSOjKM6rIqjR3SCIV/Proyek-Tim-Modul-HTML-CSS?node-id=0%3A1)
+- Dokumentasi URL: [Google Dokumen](https://docs.google.com/document/d/1mACJsBbQNHraWAM5G0v26_enH0ZCY915QFAnS4t537E/edit#heading=h.31lzmpje6l17)
+
 ## Anggota TIM A08
 
 Terdapat 5 orang peserta yang terlibat dalam tim ini, yaitu :
