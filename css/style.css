@@ -388,7 +388,7 @@ footer {
      Responsive
 ---------------------------*/
 
-/*  Rablets */
+/*  Tablets */
 @media (max-width: 1200px) {
   .container {
     margin: 0 auto;
@@ -428,6 +428,7 @@ footer {
   /*  */
 }
 
+/* Tables */
 @media (max-width: 992px) {
   .container {
     max-width: 960px;
@@ -448,6 +449,10 @@ footer {
   .portofolio-header-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .portfolio-header {
+    justify-content: space-around;
   }
 
   .portfolio-img {
@@ -477,6 +482,11 @@ footer {
   .testimony-desc {
     padding: 30px;
   }
+}
+
+/* Contact */
+.contact-box {
+  border-radius: 0;
 }
 
 @media (max-width: 768px) {
@@ -560,6 +570,9 @@ footer {
   }
 
   /* Contact */
+  .contact-box {
+    border-radius: 0;
+  }
   .contact {
     display: flex;
     flex-direction: column;

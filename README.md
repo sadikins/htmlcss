@@ -6,6 +6,10 @@ Proyek ini dibuat untuk kebutuhan kegiatan bootcamp Anak Teknik Indo & Progate C
 
 Tema Webiste yang diambil adalah Portfolio seorang fotografer dengan karakteristik simple dan clean.
 
+## Screenshot
+
+![Desktop Preview](images/screenshot.png)
+
 ## Anggota TIM A08
 
 Terdapat 5 orang peserta yang terlibat dalam tim ini, yaitu :
