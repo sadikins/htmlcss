@@ -169,13 +169,15 @@ nav ul li a:hover {
 .skill-box {
   border-radius: 20px;
   margin-bottom: 60px;
+  padding: 30px;
+  height: 316;
+  width: 430px;
 }
 
 .skill-box:hover {
   box-shadow: 0px 0px 30px #0000002f;
   border-radius: 20px;
-  padding: 30px;
-  margin-top: -10px;
+  /* border: 3 solid ; */
   transition: padding 0.5s;
 }
 
@@ -216,7 +218,7 @@ nav ul li a:hover {
   padding: 80px 0px 0px 0px;
 }
 
-.testimony_header {
+.testimony-header {
   text-align: center;
   color: var(--ff-primary);
   margin-bottom: 95px;
@@ -230,7 +232,7 @@ nav ul li a:hover {
   border-radius: 5px;
   margin-top: 50px;
 }
-.testimony_img {
+.testimony-img {
   width: 120px;
   border-radius: 50%;
   position: absolute;
@@ -239,18 +241,18 @@ nav ul li a:hover {
   border: var(--clr-accent) solid 3px;
 }
 
-.testimony_desc {
+.testimony-desc {
   color: var(--clr-netutral-text);
   padding: 100px 40px 30px 50px;
   font-style: italic;
 }
 
-.testimony_job_title {
+.testimony-job-title {
   margin-top: 25px;
   color: var(--clr-netutral-text);
 }
 
-.stars_icon {
+.stars-icon {
   margin-top: 30px;
 }
 
@@ -325,6 +327,19 @@ footer {
 /* -------------------------
     Button back to Top 
 ----------------------------*/
+
+.arrow-down {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.arrow-down a {
+  color: #b1b1b1;
+}
+
 .btn-backtop {
   width: 50px;
   height: 50px;
@@ -391,6 +406,10 @@ footer {
     margin: 0 auto;
     text-align: center;
     flex-direction: column-reverse;
+  }
+
+  .port-img {
+    width: 100%;
   }
 }
 
