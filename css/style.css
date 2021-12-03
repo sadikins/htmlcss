@@ -48,6 +48,10 @@ body {
   color: var(--text-color);
 }
 
+h2 {
+  color: var(--black);
+}
+
 section {
   margin: 100px auto;
   width: 100%;
