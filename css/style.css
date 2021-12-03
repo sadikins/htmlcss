@@ -201,9 +201,20 @@ nav ul li a:hover {
   margin-bottom: 30px;
 }
 
-.skill-icon img {
+.skill-icon i {
+  background-color: var(--black);
+  font-size: 30px;
+  color: white;
   margin-right: 20px;
+  padding: 30px;
+  border-radius: 3px;
 }
+
+.skill-box:hover i {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
 /*--------------------------
      Portfolio
 ---------------------------*/
