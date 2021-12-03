@@ -25,11 +25,12 @@
 ---------------------------*/
 
 :root {
-  --clr-black: #000;
-  --clr-secondary: ;
-  --clr-accent: #fcd549;
-  --clr-netutral-text: #4a4949;
-  --ff-primary: #fff;
+  --black: #000;
+  --gray: #a6a6a6;
+  --yellow: #fcd549;
+  --text-color: #4a4949;
+  --white: #fff;
+  --shadow: #0000002f;
 }
 * {
   margin: 0;
@@ -44,6 +45,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   position: relative;
+  color: var(--text-color);
 }
 
 section {
@@ -72,12 +74,12 @@ nav ul li {
 nav ul li a {
   margin-left: 30px;
   font-family: "Poppins", sans-serif;
-  color: var(--clr-black);
+  color: var(--black);
 }
 
 nav ul li a:hover {
   font-weight: bold;
-  color: var(--clr-accent);
+  color: var(--yellow);
 }
 
 .navbar-icon {
@@ -93,8 +95,8 @@ nav ul li a:hover {
   justify-content: space-between;
   justify-self: center;
   margin: 0 auto;
+  padding: 0 15px;
   max-width: 1320px;
-  /* border: var(--clr-accent) 3px solid; */
 }
 /*--------------------------
       Title & Subtitle
@@ -109,6 +111,7 @@ nav ul li a:hover {
 
 .subtitle {
   font-family: "Poppins", sans-serif;
+  color: var(--gray);
   font-size: 23px;
   font-weight: 400;
   text-transform: uppercase;
@@ -119,7 +122,11 @@ nav ul li a:hover {
 }
 
 .text-yellow {
-  color: var(--clr-accent);
+  color: var(--yellow);
+}
+
+.text-white {
+  color: var(--white);
 }
 /*--------------------------
       Header & Navbar
@@ -143,20 +150,20 @@ nav ul li a:hover {
   width: 146px;
   height: 63px;
   border-radius: 5px;
-  background-color: var(--clr-black);
+  background-color: var(--black);
   font-weight: 600;
   font-size: 18;
   font-family: "Poppins", sans-serif;
 }
 
 .btn-primary a {
-  color: var(--clr-accent);
+  color: var(--yellow);
   display: block;
 }
 
 .btn-primary:hover {
-  background: var(--clr-accent);
-  border: var(--clr-accent);
+  background: var(--yellow);
+  border: var(--yellow);
 }
 
 .btn-primary a:hover {
@@ -185,7 +192,7 @@ nav ul li a:hover {
 }
 
 .skill-box:hover {
-  box-shadow: 0px 0px 30px #0000002f;
+  box-shadow: 0px 0px 30px var(--shadow);
   border-radius: 20px;
 }
 
@@ -241,12 +248,13 @@ nav ul li a:hover {
 
 .testimony-header {
   text-align: center;
-  color: var(--ff-primary);
+  color: var(--white);
   margin-bottom: 95px;
 }
+
 .testimony {
   text-align: center;
-  background: var(--ff-primary);
+  background: var(--white);
   position: relative;
   width: 376px;
   height: 335px;
@@ -259,18 +267,18 @@ nav ul li a:hover {
   position: absolute;
   top: -55px;
   left: 35%;
-  border: var(--clr-accent) solid 3px;
+  border: var(--yellow) solid 3px;
 }
 
 .testimony-desc {
-  color: var(--clr-netutral-text);
+  color: var(--text-color);
   padding: 100px 40px 30px 50px;
   font-style: italic;
 }
 
 .testimony-job-title {
   margin-top: 25px;
-  color: var(--clr-netutral-text);
+  color: var(--text-color);
 }
 
 .stars-icon {
@@ -294,7 +302,7 @@ nav ul li a:hover {
 }
 
 .contact-box {
-  color: var(--ff-primary);
+  color: var(--white);
   margin: 0 auto;
   text-align: center;
 }
@@ -317,7 +325,7 @@ nav ul li a:hover {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: var(--ff-primary);
+  background: var(--white);
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -329,7 +337,7 @@ nav ul li a:hover {
 }
 
 .contact-box .social-media-item:hover i {
-  color: var(--clr-accent);
+  color: var(--yellow);
   font-size: 30px;
 }
 
@@ -342,7 +350,7 @@ footer {
 }
 .active {
   margin: 0 10px;
-  color: var(--clr-accent);
+  color: var(--yellow);
 }
 
 /* -------------------------
@@ -369,20 +377,20 @@ footer {
   right: 70px;
   bottom: 50px;
   position: absolute;
-  background: var(--clr-accent);
+  background: var(--yellow);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .btn-backtop a i {
-  color: var(--ff-primary);
+  color: var(--white);
   font-size: 20px;
   padding-left: 15px;
 }
 
 .btn-backtop a:hover i {
-  color: var(--clr-black);
+  color: var(--black);
 }
 /*--------------------------
      Responsive
@@ -482,11 +490,11 @@ footer {
   .testimony-desc {
     padding: 30px;
   }
-}
 
-/* Contact */
-.contact-box {
-  border-radius: 0;
+  /* Contact */
+  .contact-box {
+    border-radius: 0;
+  }
 }
 
 @media (max-width: 768px) {
