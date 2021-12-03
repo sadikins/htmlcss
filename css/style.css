@@ -45,11 +45,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   position: relative;
-  color: var(--text-color);
-}
-
-h2 {
-  color: var(--black);
 }
 
 section {
@@ -581,8 +576,7 @@ footer {
   .skill-box {
     width: fit-content;
   }
-  .skill-icon img {
-    width: fit-content;
+  .skill-icon i {
     margin-right: 10px;
   }
 
