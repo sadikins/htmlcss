@@ -509,6 +509,11 @@ footer {
   .portofolio-header-container {
     padding: 0 30px;
   }
+
+  .portfolio-img {
+    margin: 0 auto;
+    width: 80%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -520,6 +525,13 @@ footer {
   .hero-container {
     text-align: center;
     flex-direction: column-reverse;
+  }
+
+  /* Portfolio */
+
+  .portfolio-img {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
@@ -576,6 +588,13 @@ footer {
   .skill-icon img {
     width: fit-content;
     margin-right: 10px;
+  }
+
+  /* Portfolio */
+
+  .portfolio-img {
+    margin: 0 auto;
+    width: 80%;
   }
 
   /* Contact */
