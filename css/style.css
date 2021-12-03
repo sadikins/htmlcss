@@ -437,7 +437,7 @@ footer {
   .container {
     max-width: 960px;
     margin: 0 auto;
-    border: #fcd549 solid 3px;
+    /* border: #fcd549 solid 3px; */
     justify-content: center;
   }
 
@@ -512,26 +512,11 @@ footer {
 
   .portfolio-img {
     margin: 0 auto;
-    width: 80%;
-  }
-}
-
-@media (max-width: 576px) {
-  .container {
-    max-width: 540px;
+    width: 45%;
   }
 
-  /* Hero */
-  .hero-container {
-    text-align: center;
-    flex-direction: column-reverse;
-  }
-
-  /* Portfolio */
-
-  .portfolio-img {
-    margin: 0 auto;
-    width: 80%;
+  .portfolio-subheader {
+    margin-bottom: 30px;
   }
 }
 
@@ -605,5 +590,24 @@ footer {
   .contact {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  /* Hero */
+  .hero-container {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  /* Portfolio */
+
+  .portfolio-img {
+    margin: 0 auto;
+    width: 80%;
   }
 }
