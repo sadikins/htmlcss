@@ -428,8 +428,6 @@ footer {
     width: 300px;
     margin-right: 10px;
   }
-
-  /*  */
 }
 
 /* Tables */
@@ -489,9 +487,6 @@ footer {
   }
 
   /* Contact */
-  .contact-box {
-    border-radius: 0;
-  }
 }
 
 @media (max-width: 768px) {
@@ -585,7 +580,6 @@ footer {
 
   /* Contact */
   .contact-box {
-    border-radius: 0;
     margin: 0 20px;
   }
   .contact {
